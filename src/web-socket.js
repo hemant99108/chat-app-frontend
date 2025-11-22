@@ -3,7 +3,7 @@
 import {io} from 'socket.io-client';
 
 export function connectWs(){
-    return io('http://localhost:3000');
+    return io('https://chat-app-backend-jade-nine.vercel.app');
     
 
 }
